@@ -1,0 +1,119 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Lego-man in a pea",
+      "description": "des 1",
+      "imageUrl": "https://di.lnwfile.com/_/di/_raw/d1/gd/q8.jpg",
+      "price": 20
+    },
+    {
+      "id": 2,
+      "name": "Eeyore",
+      "description": "des2",
+      "imageUrl": "https://di.lnwfile.com/_/di/_raw/go/d7/1g.jpg",
+      "price": 25
+    },
+    {
+      "id": 3,
+      "name": "Hermione Granger",
+      "description": "des3",
+      "imageUrl": "https://di.lnwfile.com/_/di/_fit/250/250/t2/wr/id.jpg",
+      "price": 15
+    },
+    {
+      "id": 4,
+      "name": "Ron Weasley",
+      "description": "des4",
+      "imageUrl": "https://di.lnwfile.com/_/di/_fit/250/250/p5/aq/wr.jpg",
+      "price": 22
+    },
+    {
+      "id": 5,
+      "name": "Thanos",
+      "description": "des5",
+      "imageUrl": "https://di.lnwfile.com/_/di/_raw/2a/dl/eq.jpg",
+      "price": 17
+    },
+    {
+      "id": 6,
+      "name": "Crayon Girl",
+      "description": "des6",
+      "imageUrl": "https://di.lnwfile.com/_/di/_raw/g1/x7/8a.jpg",
+      "price": 12
+    },
+    {
+      "id": 7,
+      "name": "Anna",
+      "description": "des7",
+      "imageUrl": "https://di.lnwfile.com/_/di/_raw/bq/66/d7.jpg",
+      "price": 18
+    },
+    {
+      "id": 8,
+      "name": "Surprise",
+      "description": "des8",
+      "imageUrl": "https://img.freepik.com/free-vector/404-error-web-page-cartoon-illustration_33099-705.jpg?w=740&t=st=1676798523~exp=1676799123~hmac=20f3360bd7a44ddfc6e0615745731eedfec3b8acf111bed26c7cff14e5253d81",
+      "price": 19
+    }
+  ],
+  "wishlist": [
+    {
+      "id": 6
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 8
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 7
+    },
+    {
+      "id": 3
+    }
+  ],
+  "cart": [
+    {
+      "product": {
+        "id": 1,
+        "name": "Lego-man in a pea",
+        "description": "des 1",
+        "imageUrl": "https://di.lnwfile.com/_/di/_raw/d1/gd/q8.jpg",
+        "price": 20
+      },
+      "id": 1
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Eeyore",
+        "description": "des2",
+        "imageUrl": "https://di.lnwfile.com/_/di/_raw/go/d7/1g.jpg",
+        "price": 25
+      },
+      "id": 2
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

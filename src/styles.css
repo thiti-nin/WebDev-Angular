@@ -1,0 +1,143 @@
+.cart-item{
+    font-size: small;
+}
+
+.filters{
+    font-size: small;
+}
+
+.card, .form-control, .btn{
+     border-radius:0.25rem; /*default=0.35rem */
+}
+
+.list-group-item:first-child{
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+
+.list-group-item:last-child{
+    border-bottom-left-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+}
+
+.product-btn{
+    font-size: smaller;
+}
+
+/*-----------*/
+
+.qty .count {
+    color: #000;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: small;
+    font-weight: 200;
+    line-height: 10px;
+    padding: 0 2px
+    ;min-width: 30px;
+    text-align: center;
+}
+.qty .plus {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    color: rgb(255, 255, 255);
+    width: 15px;
+    height: 15px;
+    font: 15px/1 Arial,sans-serif;
+    text-align: center;
+    border-radius: 50%;
+    background-color: rgb(204, 204, 204) !important;
+    }
+.qty .minus {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    color: rgb(255, 255, 255);
+    width: 15px;
+    height: 15px;
+    font: 15px/1 Arial,sans-serif;
+    text-align: center;
+    border-radius: 50%;
+    background-clip: padding-box;
+    background-color: rgb(204, 204, 204) !important;
+}
+
+.minus:hover{
+    background-color: #717fe0 !important;
+}
+.plus:hover{
+    background-color: #717fe0 !important;
+}
+/*Prevent text selection*/
+
+input{
+    border: 0;
+    width: 2%;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input:disabled{
+    background-color:white;
+}
+
+.delete-item{
+    cursor: pointer;
+    vertical-align:bottom;
+    color:rgba(88,88,88,0.39);
+    width: 10px;
+    height: 10px;
+    font: 10px/1 Arial, sans-serif;
+
+}
+
+.delete-item:hover{
+    color: rgba(88,88,88,0.747);
+}
+
+.card-text-name{
+    margin-bottom: 0;
+}
+
+.fa-heart{
+    margin-top: auto; 
+}
+
+.fa-heart:hover{
+    color: palevioletred;
+    cursor: pointer;
+    font-size: large;
+
+}
+
+.fas{
+    color: rgb(232, 60, 117)
+}
+
+.Logo:hover{
+    color: #000;
+    cursor: pointer;
+    font-size: larger;
+}
+
+.login{
+    margin-left: 10px;
+}
+
+.guest-form-card h4{
+    text-transform: uppercase;
+    font-size: medium;
+}
+
+.guest-form-card label{
+    font-size: small;
+}
+
+.btn:disabled{
+
+/* cursor: not-allowed;
+pointer-events:all !important */
+}

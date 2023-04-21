@@ -1,0 +1,16 @@
+<div class="cart-item">
+    <span>{{ cartItem.name }}</span>:
+    <strong>{{cartItem.price * cartItem.qty | currency}}</strong>
+</div>
+
+<div class="d-flex qty flex-row">
+    <div>
+    <span class="minus" (click)="handlePopCart()">-</span>
+    <input type="number" class="count" name="qty" value="{{ cartItem.qty }}">
+    <span class="plus" (click)="handleAddtoCart()">+</span>
+    </div>
+
+    <div>
+        <small class="delete-item mb-0" (click)="DeleteThis()">DELETE</small>
+    </div>
+</div>
